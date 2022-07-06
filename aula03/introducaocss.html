@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Introdução ao CSS</title>
+    <style>
+        p {
+            /* Utilizando o nome do seletor, todos os seletores desta página recebem esse estilo*/
+            background-color: azure;
+        }
+
+        .destaque {
+            /* Utilizando PONTO, todos os seletores que tenham o atributo class*/
+            background-color: yellow;
+        }
+
+        #especifico {
+            /* Utilizando o #, apenas os seletores que tenham o atributo ID="especifico" recebem esse estilo*/
+            border: 1px solid black;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/aula03/css/area51.css">
+
+</head>
+
+<body>
+    <a id="especifico" href="/index.html">Voltar a página inicial</a>
+    <hr>
+    <br>
+
+    Estilo em linha é recomendado quando não passa de três atributos
+    <p style="color: red;background-color: black;font-weight: bold;">Vermelho</p>
+
+    <h1 style="color:blue ;background-color:green ;font-weight: lighter; ">Azul</h1>
+
+    <ul style="background: red; width:100px ; ">
+        <li style="background: green;">A</li>
+        <li style="background-color: blue;">B</li>
+        <li>C</li>
+    </ul>
+
+    <img src="/aula01/imagens/1200px-CSS3_logo_and_wordmark.svg.jpg"
+        style="width: 200px; height:200px ; border-radius: 50%; " alt="">
+
+    <div style="text-align:center ; ">
+        <t>A</t>
+        <t id="especifico">B</t>
+        <t class="destaque">C</t>
+    </div>
+
+    <p>testando css</p>
+    <span class="destaque">Desta maneira, a percepção das dificuldades deve passar por modificações independentemente
+        dos modos de operação convencionais.</span>
+    <br>
+    <br>
+    <i class="destaque">Hello my friend</i>
+    <br>
+    <br>
+    <b id="especifico">Mateus Felipe Goettems</b>
+    <br>
+    <br>
+    <div>Ainda assim, existem dúvidas a respeito de como a constante divulgação das informações deve passar por
+        modificações independentemente da gestão inovadora da qual fazemos parte.</div>
+
+</body>
+
+</html>

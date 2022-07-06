@@ -1,0 +1,33 @@
+div {
+    color: coral;
+    background-color: dimgray;
+    border: 1px solid black;
+}
+
+a {
+    color: red;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.tipofonte{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#enviar{
+    background-color: aquamarine;
+}
+
+#limpar{
+    background-color: white;
+}
+
+body{
+    background-color: bisque;
+}

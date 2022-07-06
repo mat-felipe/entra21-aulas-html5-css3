@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.italico {
+    font-style: italic;
+}
+
+#titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+}
